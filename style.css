@@ -1,0 +1,4 @@
+/* Customize this design to match your story. Keep the responsive Bootstrap layout. */
+body { background: #f4f6fa; }
+.story-output { min-height: 8rem; line-height: 1.7; white-space: normal; }
+.card { border-radius: 1rem; }
