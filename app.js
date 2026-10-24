@@ -36,3 +36,9 @@
 
 // FINAL: Add at least three meaningful comments describing your code.
 // TEST: Try TWO sets of answers and check the browser console for errors.
+let firstName = prompt("Enter first name:");
+let lastName = prompt("Enter a last name:");
+let kangarooName = prompt("Enter a name for a kangaroo:");
+let place = prompt("Enter a place:");
+let drinkName = prompt("Enter the name of a drink:");
+let fightingAction = prompt("Enter a fighting action eg(kicking, punching):");
