@@ -56,7 +56,7 @@ let fightSeconds = fightMinutes * 60;
 let fightHours = fightMinutes / 60;
 let secondsLeftover = fightSeconds % 45;
 //changing let variable//
-let storyEnding = "They lost the battle and ran away..."
+let storyEnding = "They lost the battle and ran away...";
 storyEnding = "Then " + firstName + " lived happily ever after. The end";
 //console logs//
 console.log("String check:", typeof fullName);
