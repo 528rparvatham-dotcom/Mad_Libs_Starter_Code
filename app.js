@@ -48,7 +48,7 @@ let auraQuote = prompt("Enter an aura quote:");
 let fightMinutes = Number(prompt("Enter minutes spent fighting:"));
 let drinkCount = Number(prompt("Enter numbers of drinks consumed:"));
 //concatenation//
-let fullName = "Hero: " + firstName + " " + lastName;
+let fullName = firstName + " " + lastName;
 //math operators//
 let totalDrinks = drinkCount + 2;
 let minutesRemaining = fightMinutes -1;
@@ -57,12 +57,12 @@ let fightHours = fightMinutes / 60;
 let secondsLeftover = fightSeconds % 45;
 //changing let variable//
 let storyEnding = "They lost the battle and ran away..."
-storyEnding = "Then" + firstName + "lived happily ever after. The end";
+storyEnding = "Then " + firstName + "lived happily ever after. The end";
 //console logs//
 console.log("String check:", typeof fullName);
 console.log("Number check (fightMinutes):", typeof fightMinutes, fightMinutes);
 console.log("Number check (calculated seconds):", typeof fightSeconds, fightSeconds);
 //story time!//
-let story = `Once upon a time, ${fullName} fought a kangaroo whose name was ${kangarooName}. You see, ${firstName} was stranded in ${place} and tried to look for ${drinkName} because they were thirsty. ${firstName} walked around and found ${drinkCount} cans of ${drinkName} with 2 cans nearby, making it ${totalDrinks} cans! However ${fullName} saw that there was a kangaroo, whose name was ${kangarooName}, was there too. ${kangarooName} was also very thirsty and saw ${fullName} as a threat, leading ${kangarooName} and ${firstName} to fight! ${firstName} fought the kangaroo for the ${drinkName} by ${fightingAction} the kangaroo's ${bodyPart} for ${fightMinutes} minutes, which is ${fightSeconds}, or ${fightHours} with ${secondsLeftover}. Finally, ${kangarooName} got tired of fighting and ran away, meaning ${fullName} won the fight! ${fullName} aura farmed and said ${auraQuote}, ${storyEnding}!`;
+let story = `Once upon a time, ${fullName} fought a kangaroo whose name was ${kangarooName}. You see, ${firstName} was stranded in ${place} and tried to look for ${drinkName} because they were thirsty. ${firstName} walked around and found ${drinkCount} cans of ${drinkName} with 2 cans nearby, making it ${totalDrinks} cans! However ${fullName} saw that there was a kangaroo, whose name was ${kangarooName}, was there too. ${kangarooName} was also very thirsty and saw ${fullName} as a threat, leading ${kangarooName} and ${firstName} to fight! ${firstName} fought the kangaroo for the ${drinkName} by ${fightingAction} the kangaroo's ${bodyPart} for ${fightMinutes} minutes, which is ${fightSeconds} seconds, or ${fightHours} hours with ${secondsLeftover} seconds leftover. Finally, ${kangarooName} got tired of fighting and ran away, meaning ${fullName} won the fight! ${fullName} aura farmed and said ${auraQuote}, ${storyEnding}!`;
 document.getElementById("madlib-output").innerHTML = story;
 
