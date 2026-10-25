@@ -42,12 +42,13 @@ let kangarooName = prompt("Enter a name for a kangaroo:");
 let place = prompt("Enter a place:");
 let drinkName = prompt("Enter the name of a drink:");
 let fightingAction = prompt("Enter a fighting action eg(kicking, punching):");
+let bodyPart = prompt("Enter a body part:(of the kangaroo)");
 let auraQuote = prompt("Enter an aura quote:");
 //number prompts//
 let fightMinutes = Number(prompt("Enter minutes spent fighting:"));
 let drinkCount = Number(prompt("Enter numbers of drinks consumed:"));
 //concatenation//
-let fullName = "Hero: " + firstName + "" + lastName;
+let fullName = "Hero: " + firstName + " " + lastName;
 //math operators//
 let totalDrinks = drinkCount + 2;
 let minutesRemaining = fightMinutes -1;
