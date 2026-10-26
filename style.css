@@ -2,3 +2,19 @@
 body { background: #f4f6fa; }
 .story-output { min-height: 8rem; line-height: 1.7; white-space: normal; }
 .card { border-radius: 1rem; }
+
+.header {
+    font-family: "Mystery Quest"
+}
+
+.mont {
+    font-family: 'Montserrat Alternates'
+}
+
+.green {
+    color: #656839;
+}
+
+.white {
+    color: white;
+}
