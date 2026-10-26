@@ -4,11 +4,11 @@ body { background: #f4f6fa; }
 .card { border-radius: 1rem; }
 
 .header {
-    font-family: "Mystery Quest"
+    font-family: 'Mystery Quest', cursive;
 }
 
 .mont {
-    font-family: 'Montserrat Alternates'
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .green {
